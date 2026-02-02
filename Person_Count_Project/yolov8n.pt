@@ -1,0 +1,4 @@
+from ultralytics import YOLO
+
+# Direct model name → YOLOv8 auto-downloads
+model = YOLO("yolov8n.pt")  # nano model, auto-download
